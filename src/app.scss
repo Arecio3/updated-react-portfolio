@@ -1,0 +1,27 @@
+.App {
+    height: 100vh;
+
+    .sections {
+        width: 100%;
+        // Because we want a fixed navBar and not overflow
+        height: calc(100vh - 70px);
+        background-color: lightsalmon;
+        // make the container start at the bottom of topBar
+        position: relative;
+        top: 70px;
+        scroll-behavior: smooth;
+        // Strict scrolling effect
+        scroll-snap-type: y mandatory;
+        // takes scroll bar away from the right
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        // for each of the components Intro/Portfolio/Work/Contact
+        // How we got each component to render under each other
+        > * {
+            width: 100vw;
+            height: calc(100vh - 70px);
+            scroll-snap-align: start;
+        }
+    }
+}
