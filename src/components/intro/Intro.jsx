@@ -14,7 +14,7 @@ const Intro = () => {
           cursorChar: '|',
           backDelay: 1500,
           backSpeed: 60,
-          strings: ["Hi there, I'm ","Hola, me llamo"],
+          strings: ["Hi my name is","Hola, mi nombre es"],
         });
     }, []);
  
@@ -29,7 +29,7 @@ const Intro = () => {
         <div className="wrapper">
           <h2><span ref={textRef}></span></h2>
           <h1 className='name'>Arecio Canton</h1>
-          <h3>Full Stack <br /><span>Javascript</span> Developer </h3>
+          <h3>and I'm a Junior Full Stack <br /><span>Javascript</span> Developer </h3>
         </div>
           <a href="#portfolio">
               <img src={Down} alt="" />

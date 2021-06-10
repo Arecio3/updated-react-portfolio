@@ -1,4 +1,5 @@
 @import '../../global.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .intro {
     background-color: #D3E3FC;
     display: flex;
@@ -40,6 +41,7 @@
 
            h1 {
                font-size: 200px;
+               font-family: 'Montserrat', sans-serif;
                font-weight: 300;
                margin: 10px 0;
            }
@@ -47,18 +49,18 @@
 
            h2 {
                 font-size: 70px;
-                font-weight: 200;
+                font-weight: 250;
                 
            }
 
            h3 {
             font-size: 70px;
-            font-weight: 200;
+            font-weight: 250;
 
             span {
                 font-size: inherit;
                 font-weight: 500;
-                color: #FAED26;
+                color: #F90;
                 outline: black;
             }
 

@@ -17,6 +17,9 @@ const Menu = ({ menuOpen, setMenuOpen}) => {
                 <li>
                     <a href="#contact">Contact </a>
                 </li>
+                <li>
+                    <a href="./Resume.pdf">Resume</a>
+                </li>
             </ul>
         </div>
     )
