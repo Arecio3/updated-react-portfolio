@@ -1,14 +1,17 @@
+@import '../../global.scss';
 .intro {
-    background-color: white;
+    background-color: #D3E3FC;
     display: flex;
+    
 
     .left {
         flex: 0.5;
+        position: relative;
         overflow: hidden;
 
         .imgContainer {
-            width: 700px;
-            height: 700px;
+            width: 800px;
+            height: 800px;
             background: rgb(55,71,133);
             background: linear-gradient(0deg, rgba(55,71,133,1) 22%, rgba(168,208,230,1) 100%);
             border-radius: 50%;
@@ -33,6 +36,62 @@
             padding-left: 50px;
             display: flex;
            flex-direction: column;
+         
+
+           h1 {
+               font-size: 200px;
+               font-weight: 300;
+               margin: 10px 0;
+           }
+
+
+           h2 {
+                font-size: 70px;
+                font-weight: 200;
+                
+           }
+
+           h3 {
+            font-size: 70px;
+            font-weight: 200;
+
+            span {
+                font-size: inherit;
+                font-weight: 500;
+                color: #FAED26;
+                outline: black;
+            }
+
+            .ityped-cursor {
+                animation: blink 1s infinite;
+            }
+
+            @keyframes blink {
+                50% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+
+           }
+        }
+        a {
+            position: absolute;
+            bottom: 10px;
+
+            img {
+                width: 30px;
+                animation: arrowBlink 2s infinite;
+            }
+
+            @keyframes arrowBlink {
+                100% {
+                    opacity: 0%;
+                    color: black;
+                }
+            }
         }
     }
 }

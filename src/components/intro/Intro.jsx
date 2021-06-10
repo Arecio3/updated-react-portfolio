@@ -1,9 +1,23 @@
-import React from "react";
+import React, {  useEffect, useRef } from "react";
 import Hero from "./selfie.png";
-import intro from "./intro.jpeg";
+import Down from "./down.png";
+import { init } from 'ityped';
 import "./intro.scss";
 
 const Intro = () => {
+
+    const textRef = useRef()
+
+    useEffect(() => {
+        init(textRef.current, {
+          showCursor: true,
+          cursorChar: '|',
+          backDelay: 1500,
+          backSpeed: 60,
+          strings: ["Hi there, I'm ","Hola, me llamo"],
+        });
+    }, []);
+ 
   return (
     <div className="intro" id="intro">
       <div className="left">
@@ -13,15 +27,13 @@ const Intro = () => {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hi There, I'm</h2>
-          <h1>Arecio Canton</h1>
-          <h3>Full Stack Javascript Developer</h3>
+          <h2><span ref={textRef}></span></h2>
+          <h1 className='name'>Arecio Canton</h1>
+          <h3>Full Stack <br /><span>Javascript</span> Developer </h3>
         </div>
-        <div className='imgContainer2'>
           <a href="#portfolio">
-            <img src={intro} className="imgContainer"></img>
+              <img src={Down} alt="" />
           </a>
-        </div>
       </div>
     </div>
   );
