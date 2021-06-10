@@ -19,7 +19,6 @@ export default function TopBar({ menuOpen, setMenuOpen }) {
             <span>cuba289@gmail.com</span>
           </div>
         </div>
-        <h1>Hello</h1>
         <div className="right">
           <div className="burger" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="line1"></span>

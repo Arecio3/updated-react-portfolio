@@ -1,8 +1,8 @@
 @import '../../global.scss';
 
 .navBar {
-    background-color: $mainColor;
-    color: #FEFFFF;
+    background-color: #FEFFFF;
+    color: $mainColor;
     width: 100%;
     height: 70px;
     position: fixed;
@@ -25,7 +25,8 @@
                 font-weight: 300;
                 text-decoration: none;
                 color: inherit;
-                margin-right: 40px
+                margin-right: 40px;
+                
             }
 
             .itemContainer {
@@ -34,7 +35,7 @@
                 margin-left: 30px;
 
                 .icon {
-                    font-size: 18px;
+                    font-size: 25px;
                     margin-right: 5px;
                 }
 
@@ -58,7 +59,7 @@
                 span {
                     width: 100%;
                     height: 3px;
-                    background-color: #FEFFFF;
+                    background-color: $mainColor;
                     transform-origin: left;
                     transition: all 2s ease;
                 }
@@ -67,8 +68,8 @@
     }
 
     &.active{
-        background-color: #FEFFFF;
-        color: $mainColor;
+        background-color: $mainColor;
+        color: #FEFFFF;
         &::-webkit-scrollbar{
             display: none;
         }
@@ -77,17 +78,18 @@
             span{
                 //first line
                 &:first-child{
-                    background-color: $mainColor;
+                    background-color: white;
                     transform: rotate(45deg);
                 }
                 &:nth-child(2) {
                     opacity: 0;
                 }
                 &:last-child{
-                    background-color: $mainColor;
+                    background-color: white;
                     transform: rotate(-45deg);
                 }
             }
         }
     }
 }
+
