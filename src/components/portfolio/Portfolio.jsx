@@ -1,27 +1,46 @@
-import React, { useState } from 'react'
-import stock from './stockLand.png'
-import astroscope from './astroscope.png'
-import parthub from './parthub.png'
-import PortfolioList from '../portfolioList/PortfolioList'
-import './portfolio.scss'
+import React, { useState, useEffect } from 'react';
+import stock from './stockLand.png';
+import astro from './astroscope.png';
+import parthub from './parthub.png';
+import PortfolioList from '../portfolioList/PortfolioList';
+import './portfolio.scss';
+import { projects, homeworks } from '../../data';
 const Portfolio = () => {
 
-    const [selected, setSelected] = useState('ucfProjects')
+    const [selected, setSelected] = useState('projects')
+    const [data, setData] = useState([])
 
     const portfolioFilter = [
         {
-            id: 'ucfProjects',
-            title: 'UCF Projects', 
+            id: 'projects',
+            title: 'Projects', 
         },
         {
-            id: 'ucfHomeworks',
-            title: 'UCF Homeworks',
+            id: 'homeworks',
+            title: 'Homeworks',
         },
         {
             id: 'personal',
             title: 'Personal',
         },
     ]
+
+    useEffect(() => {
+
+        switch(selected) {
+            case 'projects':
+                setData(projects)
+                break
+                
+            case 'homeworks':
+                setData(homeworks)
+                break
+                default:
+                setData(projects)
+        
+        }
+
+    }, [selected])
 
     return (
 
@@ -33,18 +52,13 @@ const Portfolio = () => {
                ))}
             </ul>
             <div className="container">
-                <div className="item">
-                    <img src={stock} alt="Screen shot of StockChasr landing page" className='pic1'/>
-                    <h3 >StockChasr</h3>
+                {data.map(d => (
+                    <div className="item">
+                    <img src={d.img} className='pic1'/>
+                    <h3 >{d.title}</h3>
                 </div>
-                <div className="item">
-                    <img src={astroscope} alt="Screen shot of StockChasr landing page" className='pic1'/>
-                    <h3>Astroscope</h3>
-                </div>
-                <div className="item">
-                    <img src={parthub} alt="Screen shot of StockChasr landing page" className='pic1'/>
-                    <h3>PartHub</h3>
-                </div>
+                ))}
+                
             </div>
         </div>
     )
