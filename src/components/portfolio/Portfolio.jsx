@@ -61,10 +61,12 @@ const Portfolio = () => {
       </ul>
       <div className="container">
         {data.map((d, i) => (
-          <div className="item" key={i}>
+          <a href={d.link}>
+            <div className="item" key={i}>
             <img src={d.img} className="pic1" />
             <h3>{d.title}</h3>
           </div>
+          </a>
         ))}
       </div>
       <a className='portfolioBtn' href="#work">

@@ -11,61 +11,70 @@ import stock from './components/portfolio/stockLand.png'
 import astroscope from './components/portfolio/astroscope.png'
 import parthub from './components/portfolio/parthub.png'
 
+
 export const homeworks  = [
     {
         id: 1,
         title: 'Quiz Game',
         type: 'homework',
         img: quizGame,
-        linkto: '/QuizGame'
+        link: '#quiz',
     },
     {
         id: 2,
         title: 'Scheduler',
         type: 'homework',
-        img: scheduler
+        img: scheduler,
+        link: '#scheduler',
     },
     {
         id: 3,
         title: 'Weather App',
         type: 'homework',
-        img: weather
+        img: weather,
+        link: '#weather',
     },
     {
         id: 4,
         title: 'Password Generator',
         type: 'homework',
-        img: passwordGen
+        img: passwordGen,
+        link: '#password',
     },
     {
         id: 5,
         title: 'Employee Directory',
         type: 'homework',
-        img: employeeDir
+        img: employeeDir,
+        link: '#employee',
     },
     {
         id: 6,
         title: 'Budget Tracker',
         type: 'homework',
-        img: budget
+        img: budget,
+        link: '#budget',
     },
     {
         id: 7,
         title: 'Note Taker',
         type: 'homework',
-        img: noteTaker
+        img: noteTaker,
+        link:'#notes',
     },
     {
         id: 8,
         title: 'Fitness Tracker',
         type: 'homework',
-        img: fitness
+        img: fitness,
+        link:'#fitness',
     },
     {
         id: 9,
         title: 'Team Generator',
         type: 'homework',
-        img: teamGen
+        img: teamGen,
+        link: '#team',
     },
 ];
 
@@ -73,17 +82,20 @@ export const projects = [
     {
         id: 1,
         title: 'StockChasr',
-        img: stock
+        img: stock,
+        link: '#stock'
     },
     {
         id: 2,
         title: 'PartHub',
-        img: parthub
+        img: parthub,
+        link: '#parthub'
     },
     {
         id: 3,
         title: 'Astroscope',
-        img: astroscope
+        img: astroscope,
+        link: '#astroscope'
     },
 ];
 

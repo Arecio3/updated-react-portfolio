@@ -4,9 +4,19 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Work from "./components/work/Work";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
-import Shoutouts from './components/shoutouts/Shoutouts'
 import "./app.scss";
 import { useState } from "react";
+import Budget from "./components/pages/Budget";
+import Quiz from "./components/pages/Quiz";
+import Scheduler from "./components/pages/Scheduler";
+import Astroscope from "./components/pages/Astroscope";
+import Parthub from "./components/pages/Parthub";
+import Stonk from "./components/pages/Stockchasr";
+import Pass from "./components/pages/Password";
+import Employee from "./components/pages/Employee";
+import Fitness from "./components/pages/Fitness";
+import Notes from "./components/pages/Notes";
+import Team from "./components/pages/Team";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,8 +27,18 @@ function App() {
         <div className="sections">
           <Intro />
           <Portfolio />
+          <Budget />
+          <Quiz />
+          <Scheduler />
+          <Astroscope />
+          <Parthub />
+          <Employee />
+          <Fitness/>
+          <Pass />
+          <Stonk />
+          <Notes />
+          <Team />
           <Work />
-          <Shoutouts />
           <Contact />
         </div>
     </div>
