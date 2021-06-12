@@ -6,6 +6,9 @@
         padding: 7px;
         border-radius: 10px;
         cursor: pointer;
+        text-decoration: none;
+        list-style: none;
+        color: black;
   
         &.active {
           background-color: $mainColor;

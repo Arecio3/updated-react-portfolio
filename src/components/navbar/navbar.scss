@@ -10,6 +10,7 @@
     // sets it bigger then other components
     z-index: 2;
     transition: all 1s ease;
+    overflow: hidden;
 
     .wrapper {
         padding: 10px 30px;

@@ -11,14 +11,13 @@ import Quiz from "./components/pages/Quiz";
 import Scheduler from "./components/pages/Scheduler";
 import Astroscope from "./components/pages/Astroscope";
 import Parthub from "./components/pages/Parthub";
-import Stonk from "./components/pages/Stockchasr";
+import Stonk from "./components/pages/stockchasr/Stockchasr";
 import Pass from "./components/pages/Password";
 import Employee from "./components/pages/Employee";
 import Fitness from "./components/pages/Fitness";
 import Notes from "./components/pages/Notes";
 import Team from "./components/pages/Team";
-import Weather from "./components/pages/Weather";
-
+import Weather from "./components/pages/Weather"; 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (

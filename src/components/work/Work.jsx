@@ -44,15 +44,15 @@ export default function Works() {
     <div className="work" id="work">
       <header>
         {" "}
-        <h1 className="animated bounceInDown">Work Info</h1>
+        <h1 className="workHeader">Work Info</h1>
       </header>
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
-        {data.map((d) => (
-          <div className="container">
-            <div className="item">
+        {data.map((d, i) => (
+          <div className="workContainer" key={i}>
+            <div className="item" >
               <div className="left">
                 <div className="leftContainer">
                   <div className="imgContainer">
@@ -60,7 +60,6 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.description}</p>
-                  <span>Projects</span>
                 </div>
               </div>
               <div className="right">
@@ -78,7 +77,7 @@ export default function Works() {
       <img
         src={arrow}
         className="arrow right"
-        onClick={() => handleClick("right")}
+        onClick={() => handleClick()}
       ></img>
       <a className='workBtn' href="#shoutouts">
         <img className='arrowDown' src={arrow} alt="" />
