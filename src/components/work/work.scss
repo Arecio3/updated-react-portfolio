@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 .work {
   background-color: #29648A;
   display: flex;
@@ -22,6 +24,10 @@
     height: 60px;
     position: absolute;
     cursor: pointer;
+
+    @include mobile {
+      display: none;
+    }
    
     &.left {
       left: 100px;
@@ -43,15 +49,22 @@
     // change to -500vh to see
     left: 0;
     transition: all 1s ease-in-out;
+    overflow: hidden;
+
+    @include mobile {
+      height: 100vh;
+      flex-direction: column;
+      justify-content: center;
+    }
 
     .workContainer {
       width: 100vw;
       display: flex;
       align-items: center;
       justify-content: center;
-
       
-
+      
+      
       .item {
         width: 700px;
         height: 100%;
@@ -61,6 +74,13 @@
         align-items: center;
         justify-content: center;
 
+        @include mobile {
+          width: 80%;
+          height: 150px;
+          margin: 5px 0;
+         
+        }
+
         .left {
           flex: 4;
           height: 80%;
@@ -68,34 +88,53 @@
           align-items: center;
           justify-content: center;
 
+          
           .leftContainer {
             width: 90%;
             height: 70%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-      
-
+            
+            
             .imgContainer {
               background-color: #e3afbc;
               width: 50px;
+              height: 50px;
               border-radius: 10%;
-              margin-left: 10px;
+              margin-left: 20px;
               display: flex;
               align-items: center;
               justify-content: center;
+
+              @include mobile {
+              display: none;
+              }
               
               .devIcon {
                 font-size: 50px;
                 background-color: #e3afbc;
-                padding: 5px;
+                padding: 3px;
               }
             }
             h2 {
-              font-size: 35px;
+              font-size: 20px;
+              overflow: hidden;
+              
+
+              @include mobile {
+               font-size: 10px;
+               overflow: hidden;
+               }
             }
             p {
-              font-size: 15px;
+              font-size: 13px;
+              overflow: hidden;
+              
+              @include mobile {
+                font-size: 9px;
+                overflow: hidden;
+                }
             }
           }
         }
@@ -119,9 +158,14 @@
     position: absolute;
     bottom: 80px;
   
+    @include mobile {
+      bottom: 5px;
+    }
     .arrowDown {
         width: 30px;
         animation: arrowBlink 2s infinite;
+
+        
     }
   
     @keyframes arrowBlink {

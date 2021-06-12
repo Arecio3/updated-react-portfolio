@@ -11,13 +11,13 @@ const Menu = ({ menuOpen, setMenuOpen}) => {
                 <li onClick ={() => setMenuOpen(false)}>
                     <a href="#portfolio">Portfolio </a>
                 </li>
-                <li >
+                <li onClick={()=>setMenuOpen(false)}>
                     <a href="#work">Work </a>
                 </li>
-                <li>
+                <li  onClick={()=>setMenuOpen(false)}>
                     <a href="#contact">Contact </a>
                 </li>
-                <li>
+                <li  onClick={()=>setMenuOpen(false)}>
                     <a href="./Resume.pdf">Resume</a>
                 </li>
             </ul>

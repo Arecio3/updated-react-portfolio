@@ -79,7 +79,7 @@ export default function Works() {
         className="arrow right"
         onClick={() => handleClick()}
       ></img>
-      <a className='workBtn' href="#shoutouts">
+      <a className='workBtn' href="#contact">
         <img className='arrowDown' src={arrow} alt="" />
       </a>
     </div>
