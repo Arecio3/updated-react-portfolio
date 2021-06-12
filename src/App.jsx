@@ -10,7 +10,7 @@ import Budget from "./components/pages/Budget";
 import Quiz from "./components/pages/Quiz";
 import Scheduler from "./components/pages/Scheduler";
 import Astroscope from "./components/pages/Astroscope";
-import Parthub from "./components/pages/Parthub";
+import Parthub from "./components/pages/parthub/Parthub";
 import Stonk from "./components/pages/stockchasr/Stockchasr";
 import Pass from "./components/pages/Password";
 import Employee from "./components/pages/Employee";
