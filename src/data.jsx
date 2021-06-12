@@ -16,7 +16,8 @@ export const homeworks  = [
         id: 1,
         title: 'Quiz Game',
         type: 'homework',
-        img: quizGame
+        img: quizGame,
+        linkto: '/QuizGame'
     },
     {
         id: 2,
@@ -85,3 +86,5 @@ export const projects = [
         img: astroscope
     },
 ];
+
+export const personal = []
