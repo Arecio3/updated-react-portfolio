@@ -3,7 +3,7 @@ import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
 import rightBg from "../../images/slide1right.png";
 import arrow from "../intro/down.png";
 import projectIcon from "../../images/projectSlide.png";
-import PersonIcon from "@material-ui/icons/Person";
+import homeworkIcon from "../../images/homeworkSlide.png";
 import "./work.scss";
 
 export default function Works() {
@@ -20,7 +20,7 @@ export default function Works() {
     },
     {
       id: "2",
-      icon: PersonIcon,
+      icon: homeworkIcon,
       title: "Homeworks",
       description:
         "Through out my three month Bootcamp experience there were numerous homework assignments.",
