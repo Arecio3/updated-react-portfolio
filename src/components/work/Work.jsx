@@ -15,7 +15,7 @@ export default function Works() {
       icon: "https://img.icons8.com/carbon-copy/100/000000/developer.png",
       title: "Why I code",
       description:
-        " I love being able to create applicataions that make life easier on the internet more enjoyable and with my unique design showcasing it.",
+        " I love being able to create code that makes life easier and more enjoyable.",
       image: rightBg,
     },
     {

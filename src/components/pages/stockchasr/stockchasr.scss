@@ -6,13 +6,12 @@
     display: flex;
     position: absolute;
     font-family: "Titillium Web", sans-serif;
-    border: #e3e2df 1px solid;
+    border: #222 1px solid;
     border-radius: 0.4rem;
     padding: 15px;
     width: 55%;
-    background-color: #E3E2DF;
-    color: #222;
-    display: flex;
+    background-color: #314152;
+    color: #D1D7E0;
     flex-direction: column;
     justify-content: space-between;
 
@@ -35,13 +34,13 @@
     }
 
     .description {
-        color: #222;
         font-size: 40px;
+        color: white;
     }
 
     .techHeader {
+      color: white;
       margin-top: 10px;
-      color: #222;
     }
 
     .stockCoders {

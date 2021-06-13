@@ -75,9 +75,9 @@
         justify-content: center;
 
         @include mobile {
-          width: 80%;
+          width: 85%;
           height: 150px;
-          margin: 5px 0;
+          margin: 15px;
          
         }
 
@@ -95,6 +95,12 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+
+            @include mobile {
+              width: 100%;
+              height: 100%;
+              margin-left: 10px;
+            }
             
             
             .imgContainer {
@@ -108,13 +114,18 @@
               justify-content: center;
 
               @include mobile {
-              display: none;
+              width: 20px;
+              height: 20px;
               }
               
               .devIcon {
                 font-size: 50px;
                 background-color: #e3afbc;
                 padding: 3px;
+
+                @include mobile {
+                  width: 15px;
+                }
               }
             }
             h2 {
@@ -124,12 +135,12 @@
 
               @include mobile {
                font-size: 10px;
-               overflow: hidden;
+             
                }
             }
             p {
-              font-size: 13px;
-              overflow: hidden;
+              font-size: 10px;
+        
               
               @include mobile {
                 font-size: 9px;

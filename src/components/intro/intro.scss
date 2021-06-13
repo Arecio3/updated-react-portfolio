@@ -3,6 +3,7 @@
 .intro {
     background-color: #D3E3FC;
     display: flex;
+    overflow: hidden;
    
     @include mobile {
         flex-direction: column;
@@ -12,8 +13,8 @@
     .left {
         flex: 0.5;
         position: relative;
-        overflow: hidden;
-
+        
+        
         .imgContainer {
             width: 700px;
             height: 700px;
@@ -44,6 +45,7 @@
     }
     .right {
         flex: 0.5;
+       
         
         .wrapper {
             width: 100%;
