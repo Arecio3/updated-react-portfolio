@@ -9,7 +9,7 @@ import { useState } from "react";
 import Budget from "./components/pages/Budget";
 import Quiz from "./components/pages/Quiz";
 import Scheduler from "./components/pages/Scheduler";
-import Astroscope from "./components/pages/Astroscope";
+import Astroscope from "./components/pages/astroscope/Astroscope";
 import Parthub from "./components/pages/parthub/Parthub";
 import Stonk from "./components/pages/stockchasr/Stockchasr";
 import Pass from "./components/pages/Password";

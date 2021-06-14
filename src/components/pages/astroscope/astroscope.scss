@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.astroscope {
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    .left {
+        flex: 2;
+        width: 70%;
+        height: 50%;
+
+        h2 {
+            margin-left: 380px;
+            font-size: 35px;
+            color: black;     
+            font-family:Poppins;
+            font-weight:200;
+            font-style:italic;
+            letter-spacing: 2px; 
+            text-transform: uppercase;
+        }
+
+        img {
+            margin-left: 10px;
+            height: 100%;
+            box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+            object-fit: contain 100%;
+        }
+    }
+
+    .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+       
+
+        h1 {
+            font-family:Poppins;
+            font-weight:200;
+            font-style:italic;
+            font-size:95px;
+            letter-spacing:3px;
+            color: #996164;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h5 {
+            text-align: start;
+        }
+
+        p {
+            padding: 0 5px;
+ 
+        }
+
+        .contributors {
+            display: flex;
+            flex-direction: column;
+      
+            a {
+              flex-direction: row;
+              color: #996164;
+              cursor: pointer;
+              text-decoration: none;
+              list-style: none;
+            }
+          }
+
+          .progress {
+           margin-bottom: 10px;
+           width: 80%;
+          }
+
+          .buttonContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin: 10px;
+        
+            a {
+              background-color: #996164;
+              color: white;
+              width: 150px;
+              margin-right: 10px;
+            }
+            // .phBtn {
+            //   background-color: #f90;
+            //   color: black;
+            //   width: 150px;
+              
+            // }
+          }
+    }
+}
