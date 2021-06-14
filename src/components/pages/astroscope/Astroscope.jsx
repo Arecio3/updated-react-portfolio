@@ -11,7 +11,7 @@ const Astroscope = () => {
       </div>
       <div className="right">
         <h1>astroscope</h1>
-        <h5>Description</h5>
+        <h3>Description</h3>
         <p>
           Astroscope was my 1<sup>st</sup> Project so as of right now it is not
           a full stack application just a front end one where the user can come
@@ -21,7 +21,7 @@ const Astroscope = () => {
           section with NASA's picture of the day which we got using their API
           and a link to their website.
         </p>
-        <h5>Contributors</h5>
+        <h3>Contributors</h3>
         <ul className="contributors">
           <a
             href="https://github.com/mascarelloa"
@@ -45,7 +45,7 @@ const Astroscope = () => {
             Alex O' Niel
           </a>
         </ul>
-        <h5>Under the Hood</h5>
+        <h3>Under the Hood</h3>
         <div>
           <Progress className='progress' color="warning" value={75} >JavaScript</Progress>
           <Progress color="" value={15} >CSS</Progress>

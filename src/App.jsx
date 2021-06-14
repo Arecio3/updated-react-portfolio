@@ -7,7 +7,7 @@ import Menu from "./components/menu/Menu";
 import "./app.scss";
 import { useState } from "react";
 import Budget from "./components/pages/Budget";
-import Quiz from "./components/pages/Quiz";
+import Quiz from "./components/pages/quiz/Quiz";
 import Scheduler from "./components/pages/Scheduler";
 import Astroscope from "./components/pages/astroscope/Astroscope";
 import Parthub from "./components/pages/parthub/Parthub";

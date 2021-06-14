@@ -1,0 +1,65 @@
+.quiz {
+  display: flex;
+  background-color: #d1d7e0;
+
+  .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+    h1 {
+      font-size: 105px;
+      color: #5680e9;
+      font-style: italic;
+    }
+    
+    h3 {
+        font-weight: 300;
+        font-size: 50px;
+        color: #5680e9;
+    }
+
+    p {
+        font-size: 28px;
+
+    }
+
+    .progress {
+      margin-bottom: 10px;
+      width: 40%;
+    }
+
+    .buttonContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin: 10px;
+
+      a {
+        color: black;
+        background-color: white;
+        border: 1px solid#5680e9;
+        width: 150px;
+        margin-right: 10px;
+
+        &:hover {
+          color: white;
+          background-color: #5680e9;
+        }
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 800px;
+        margin: 20px 20px;
+        height: 400px;
+        object-fit:cover 100%;
+    }
+  }
+}
