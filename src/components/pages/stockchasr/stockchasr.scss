@@ -1,7 +1,12 @@
-.stock {
-  background-color: #7096c5;
-  padding: 15px;
+@import '../../../global.scss';
 
+.stock {
+  background-color: white;
+  padding: 15px;
+ 
+
+
+  
   .info {
     display: flex;
     position: absolute;
@@ -14,13 +19,24 @@
     color: #D1D7E0;
     flex-direction: column;
     justify-content: space-between;
-
+    
+    
+    @include mobile {
+      width: 100%;
+      flex-direction: column;
+    }
     .infoHeader {
       display: flex;
       font-size: 135px;
       color: #7096c5;
       align-items: center;
       justify-content: center;
+
+      @include mobile {
+        font-size: 50px;
+      
+      }
+  
     }
 
     .inProgress {
@@ -94,11 +110,20 @@
     width: 876px;
     height: 498px;
 
+    
+    @include mobile {
+      width: 100%;
+      height: 50%;
+      position: relative;
+    }
+    
     .stockImg1 {
       top: 0;
       width: 100%;
       height: 100%;
       object-fit: cover 100%;
+      
+      
     }
   }
 }
