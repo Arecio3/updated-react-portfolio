@@ -47,7 +47,7 @@ const StockChasr = () => {
           <Progress color="" value={15}>
             CSS
           </Progress>
-          <Progress color="danger" value={7}>
+          <Progress color="danger" value={10}>
             HTML
           </Progress>
         </div>

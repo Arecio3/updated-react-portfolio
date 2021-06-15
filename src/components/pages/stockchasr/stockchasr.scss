@@ -5,6 +5,12 @@
   padding: 15px;
   margin: 10px;
 
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
   .left {
     display: flex;
     position: absolute;
@@ -13,10 +19,21 @@
     flex-direction: column;
     width: 50%;
 
+    @include mobile {
+      width: 90%;
+      height: 100%;
+      flex-direction: column;
+    }
+
     h1 {
       font-size: 100px;
       color: #7096c5;
       font-style: italic;
+
+      @include mobile {
+        font-size: 40px;
+        text-align: center;
+      }
     }
 
     .inProgress {
@@ -31,10 +48,20 @@
 
     h3 {
       color: #222;
+
+      @include mobile {
+        font-size: 15px;
+      }
     }
+
     p {
-      font-size: 20px;
+      font-size: 16px;
       color: #222;
+
+      @include mobile {
+        font-size: 10px;
+        line-break: strict;
+      }
     }
 
     .contributors {
@@ -47,12 +74,19 @@
         cursor: pointer;
         text-decoration: none;
         list-style: none;
+        @include mobile {
+          font-size: 10px;
+        }
       }
     }
 
     .progress {
       margin-bottom: 10px;
       width: 80%;
+
+      @include mobile {
+        width: 100%;
+      }
     }
 
     .btnContainer {
@@ -60,23 +94,24 @@
       flex-direction: row;
       justify-content: flex-start;
       margin: 10px;
-  
+    
       a {
         border-color: #7096c5;
         color: black;
         width: 150px;
         margin-right: 10px;
 
+        @include mobile {
+          width: 150px;
+        }
+
         &:hover {
           background-color: #7096c5;
           color: white;
         }
       }
-      
     }
   }
-
-
 
   .stockImgContainer {
     display: flex;
@@ -85,7 +120,11 @@
     position: relative;
     width: 876px;
     height: 498px;
-    
+
+    @include mobile {
+      display: none;
+    }
+
     img {
       width: 100%;
       height: 100%;
@@ -93,4 +132,3 @@
     }
   }
 }
-
