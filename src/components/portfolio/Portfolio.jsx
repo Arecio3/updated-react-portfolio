@@ -63,14 +63,14 @@ const Portfolio = () => {
         {data.map((d, i) => (
           <a href={d.link} key={i}>
             <div className="item">
-            <img src={d.img} className="pic1" />
+            <img src={d.img} className="pic1" alt='project screenshot'/>
             <h3>{d.title}</h3>
           </div>
           </a>
         ))}
       </div>
       <a className='portfolioBtn' href="#work">
-        <img className='arrow' src={arrow} alt="" />
+        <img className='arrow' src={arrow} alt="down arrow" />
       </a>
     </div>
   );

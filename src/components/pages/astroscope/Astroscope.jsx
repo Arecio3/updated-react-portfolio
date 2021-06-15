@@ -53,7 +53,7 @@ const Astroscope = () => {
         </div>
         <div className="buttonContainer">
         <a
-          href=""
+          href="https://github.com/mascarelloa/astroscope"
           target="_blank"
           rel="noreferrer noopener"
           className="btn custom-btn"
@@ -61,7 +61,7 @@ const Astroscope = () => {
           Project Repo
         </a>
         <a
-          href="https://github.com/mascarelloa/astroscope"
+          href="https://mascarelloa.github.io/astroscope/"
           target="_blank"
           rel="noreferrer noopener"
           className="btn custom-btn"

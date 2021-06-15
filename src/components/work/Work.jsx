@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
 import rightBg from "../../images/slide1right.png";
 import arrow from "../intro/down.png";
 import projectIcon from "../../images/projectSlide.png";
@@ -73,11 +72,13 @@ export default function Works() {
         src={arrow}
         className="arrow left"
         onClick={() => handleClick("left")}
+        alt='left arrow'
       ></img>
       <img
         src={arrow}
         className="arrow right"
         onClick={() => handleClick()}
+        alt='right arrow'
       ></img>
       <a className='workBtn' href="#contact">
         <img className='arrowDown' src={arrow} alt="" />

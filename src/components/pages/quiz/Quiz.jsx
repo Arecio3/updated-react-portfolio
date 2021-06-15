@@ -12,12 +12,12 @@ const Quiz = () => {
         <h1>Quiz Game</h1>
         <h3>Description</h3>
         <p>
-          Space Quiz was my 2<sup>nd</sup> homework from the bootcamp. <br />
+          Space Quiz was my 2<sup>nd</sup> homework from the bootcamp. 
           The assignment was to create a timed quiz with JavaScript,
-          <br /> rules are that if user picks the wrong answer then then the{" "}
-          <br /> time gets decremented by 10 seconds and at the end of
-          <br /> the quiz the user can enter in their initials and save their{" "}
-          <br /> high score with local storage as well as view that <br />{" "}
+          rules are that if user picks the wrong answer then then the
+         time gets decremented by 10 seconds and at the end of
+           the quiz the user can enter in their initials and save their
+           high score with local storage as well as view that 
           highscore in the Highscores page.
         </p>
         <h3>Under the Hood</h3>
@@ -28,7 +28,7 @@ const Quiz = () => {
           <Progress color="" value={15}>
             CSS
           </Progress>
-          <Progress color="danger" value={7}>
+          <Progress color="danger" value={10}>
             HTML
           </Progress>
         </div>

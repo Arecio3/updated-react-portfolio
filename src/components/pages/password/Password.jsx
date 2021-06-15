@@ -12,12 +12,12 @@ const Password = () => {
         <h3>Description</h3>
         <p>
           This is the 1<sup>st</sup> homework assignment from the UCF Bootcamp.
-          <br /> Criteria was to make an application that alerts the user with a
-          series <br /> of questions about the type of password they wanted to
-          be randomly <br /> generated such as how many characters, if they want
+           Criteria was to make an application that alerts the user with a
+          series  of questions about the type of password they wanted to
+          be randomly  generated such as how many characters, if they want
           caps. lowercase,
-          <br /> numbers, and special characters. I was able to generate a
-          random <br /> password with the help of the Math.Random function
+           numbers, and special characters. I was able to generate a
+          random password with the help of the Math.Random function
         </p>
         <h3>Under the Hood</h3>
         <div>
@@ -27,7 +27,7 @@ const Password = () => {
           <Progress color="" value={15}>
             CSS
           </Progress>
-          <Progress color="danger" value={7}>
+          <Progress color="danger" value={10}>
             HTML
           </Progress>
         </div>

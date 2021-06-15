@@ -1,6 +1,14 @@
+@import '../../../global.scss';
+
 .quiz {
   display: flex;
   background-color: #d1d7e0;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
 
   .left {
     flex: 1;
@@ -8,26 +16,48 @@
     flex-direction: column;
     margin: 10px;
 
+    @include mobile {
+      width: 90%;
+      height: 100%;
+      flex-direction: column;
+    }
+
     h1 {
       font-size: 105px;
       color: #5680e9;
       font-style: italic;
+
+      @include mobile {
+        font-size: 50px
+      }
     }
     
     h3 {
         font-weight: 300;
         font-size: 50px;
         color: #5680e9;
+
+        @include mobile {
+          font-size: 20px
+        }
     }
 
     p {
         font-size: 28px;
+        flex-wrap: wrap;
 
+        @include mobile {
+          font-size: 17px
+        }
     }
 
     .progress {
       margin-bottom: 10px;
       width: 40%;
+
+      @include mobile {
+        width: 100%;
+      }
     }
 
     .buttonContainer {
@@ -54,6 +84,9 @@
   .right {
     display: flex;
     flex-direction: column;
+    @include mobile {
+      display: none;
+    }
 
     img {
         width: 800px;
