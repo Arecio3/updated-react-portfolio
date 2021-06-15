@@ -12,7 +12,7 @@ import Scheduler from "./components/pages/Scheduler";
 import Astroscope from "./components/pages/astroscope/Astroscope";
 import Parthub from "./components/pages/parthub/Parthub";
 import Stonk from "./components/pages/stockchasr/Stockchasr";
-import Pass from "./components/pages/Password";
+import Pass from "./components/pages/password/Password";
 import Employee from "./components/pages/Employee";
 import Fitness from "./components/pages/Fitness";
 import Notes from "./components/pages/Notes";
