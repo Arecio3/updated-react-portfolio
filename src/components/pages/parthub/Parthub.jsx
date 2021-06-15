@@ -14,17 +14,17 @@ const PartHub = () => {
         <h2>Description</h2>
         <p>
           This was the 2<sup>nd</sup> Project in my journey through the UCF
-          Bootcamp, <br />A little story about this application it is written
-          with Handlebars ORM <br />
+          Bootcamp, A little story about this application it is written
+          with Handlebars ORM
           and the plan is to rewrite it in React before June 30<sup>th</sup>.
-          This is a Computer Parts <br /> application that works like a hub for
-          people who want to look into building a PC <br /> with the data we
-          provide for each part like CPU, GPU, RAM, etc we plan on seeing <br />{" "}
+          This is a Computer Parts  application that works like a hub for
+          people who want to look into building a PC with the data we
+          provide for each part like CPU, GPU, RAM, etc we plan on seeing 
           if we can pull more data also for accessories so far we are getting
-          back benchmark, <br /> part number, compoany, and how many get bought,
-          we plan on seeing if we can get <br /> prices as well the application
-          still needs a lot of work before <br /> it is production ready to say
-          the least.{" "}
+          back benchmark, part number, compoany, and how many get bought,
+          we plan on seeing if we can get  prices as well the application
+          still needs a lot of work before  it is production ready to say
+          the least.
         </p>
         <h3>Contributors</h3>
         <ul className="contributors">
@@ -44,17 +44,15 @@ const PartHub = () => {
           </a>
         </ul>
         <h3>Under The Hood</h3>
-        <div className="progressBar">
-          <Progress multi>
-            <Progress bar color="warning" value="90">
-              JavaScript
-            </Progress>
-            <Progress bar color="purple" value="4">
-              HB
-            </Progress>
-            <Progress bar color="info" value="7">
-              CSS
-            </Progress>
+        <div>
+          <Progress className="progress" color="warning" value={75}>
+            React
+          </Progress>
+          <Progress color="" value={15}>
+            CSS
+          </Progress>
+          <Progress color="danger" value={10}>
+            HTML
           </Progress>
         </div>
         <div className="buttonContainer">

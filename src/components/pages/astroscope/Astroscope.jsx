@@ -49,7 +49,7 @@ const Astroscope = () => {
         <div>
           <Progress className='progress' color="warning" value={75} >JavaScript</Progress>
           <Progress color="" value={15} >CSS</Progress>
-          <Progress color="danger" value={7} >HTML</Progress>
+          <Progress color="danger" value={10} >HTML</Progress>
         </div>
         <div className="buttonContainer">
         <a

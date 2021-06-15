@@ -8,7 +8,7 @@ const StockChasr = () => {
     <div className="stock" id="stock">
       <div className="left">
         <h1>StockChasr</h1>
-       
+        <h5 className="inProgress">In Progress</h5>
         <h3>Description</h3>
         <p>
           This is the 3<sup>rd</sup> Project assigned to me and 2 of my very

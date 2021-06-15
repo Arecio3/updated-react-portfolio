@@ -1,5 +1,14 @@
+
+@import '../../../global.scss';
+
 .parthub {
   background-color: black;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
 
   .phInfo {
     display: flex;
@@ -8,10 +17,21 @@
     margin-left: 25px;
     padding: 15px;
     width: 50%;
+
+    @include mobile {
+      width: 90%;
+      height: 100%;
+      flex-direction: column;
+    }
+
     h1 {
       color: white;
       font-size: 105px;
       border-radius: 2%;
+
+      @include mobile {
+        font-size: 40px;
+      }
 
       span {
         background-color: #f90;
@@ -24,6 +44,11 @@
 
     h2 {
       color: white;
+
+      @include mobile {
+        font-size: 20px;
+      }
+
     }
 
     .inProgress {
@@ -34,16 +59,32 @@
       color: white;
       text-align: center;
       padding: 3px;
+
+      @include mobile {
+        font-size: 8px;
+        width: 55px;
+      }
     }
 
     p {
       color: white;
       font-size: 18px;
       font-weight: 300;
+
+      @include mobile {
+        font-size: 11px;
+        flex-wrap: wrap;
+      }
+
     }
 
     h3 {
       color: white;
+
+      @include mobile {
+        font-size: 20px;
+      }
+
     }
 
     .contributors {
@@ -59,8 +100,13 @@
       }
     }
 
-    .progressBar {
+    .progress {
       width: 60%;
+      margin-bottom: 10px;
+
+      @include mobile {
+        width: 90%;
+      }
     }
 
     .buttonContainer {
@@ -92,6 +138,10 @@
     float: right;
     width: 950px;
     height: 600px;
+
+    @include mobile {
+      display: none;
+    }
 
     .partImg {
       top: 20;

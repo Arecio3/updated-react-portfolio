@@ -8,7 +8,7 @@
   @include mobile {
     flex-direction: column;
     align-items: center;
-    margin: 0;
+ 
   }
 
   .left {
@@ -44,13 +44,18 @@
       color: #222;
       text-align: center;
       padding: 3px;
+
+      @include mobile {
+        font-size: 8px;
+        width: 55px;
+      }
     }
 
     h3 {
       color: #222;
 
       @include mobile {
-        font-size: 15px;
+        font-size: 16px;
       }
     }
 
@@ -59,8 +64,8 @@
       color: #222;
 
       @include mobile {
-        font-size: 10px;
-        line-break: strict;
+        font-size: 12px;
+       
       }
     }
 
@@ -75,7 +80,7 @@
         text-decoration: none;
         list-style: none;
         @include mobile {
-          font-size: 10px;
+          font-size: 16px;
         }
       }
     }
