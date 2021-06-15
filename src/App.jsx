@@ -8,7 +8,7 @@ import "./app.scss";
 import { useState } from "react";
 import Budget from "./components/pages/Budget";
 import Quiz from "./components/pages/quiz/Quiz";
-import Scheduler from "./components/pages/Scheduler";
+import Scheduler from "./components/pages/scheduler/Scheduler";
 import Astroscope from "./components/pages/astroscope/Astroscope";
 import Parthub from "./components/pages/parthub/Parthub";
 import Stonk from "./components/pages/stockchasr/Stockchasr";

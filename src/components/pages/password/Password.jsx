@@ -13,7 +13,7 @@ const Password = () => {
         <p>
           This is the 1<sup>st</sup> homework assignment from the UCF Bootcamp.
            Criteria was to make an application that alerts the user with a
-          series  of questions about the type of password they wanted to
+          series of questions about the type of password they wanted to
           be randomly  generated such as how many characters, if they want
           caps. lowercase,
            numbers, and special characters. I was able to generate a
