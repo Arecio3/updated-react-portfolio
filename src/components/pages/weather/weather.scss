@@ -1,8 +1,8 @@
 @import '../../../global.scss';
 
-.scheduler {
+.weather {
     display: flex;
-    background-color: #EDEADA;
+    background-color: #f5fffa;
   
     @include mobile {
       flex-direction: column;
@@ -14,21 +14,26 @@
       flex: 1;
       display: flex;
       flex-direction: column;
-      margin: 10px;
-  
+      margin: 30px;
+      
       @include mobile {
-        width: 90%;
-        height: 100%;
-        flex-direction: column;
-      }
-  
-  
-      h1 {
-        font-size: 100px;
+          width: 90%;
+          height: 100%;
+          flex-direction: column;
+        }
+        
+        
+        h1 {
+        background-color: #ABDBCE;
+        border-radius: 0.4rem;
+        font-size: 95px;
+        text-align: center;
         color: #222;
         font-style: italic;
+        width: 45%;
         @include mobile {
-          font-size: 50px
+          font-size: 50px;
+          width: 100%;
         }
       }
 
@@ -56,22 +61,10 @@
       }
   
       p {
-        font-size: 18px;
+        font-size: 25px;
   
         @include mobile {
           font-size: 13px
-        }
-
-        #beige {
-          color: #ebb973;
-        }
-
-        #red{
-          color: #EBA3B6;
-        }
-
-        #blue {
-          color: #528DB3;
         }
       }
   
@@ -93,13 +86,13 @@
         a {
           color: black;
           background-color: white;
-          border: 1px solid #EDEADA;
+          border: 1px solid black;
           width: 150px;
           margin-right: 10px;
   
           &:hover {
             color: black;
-            background-color: #EDEADA;
+            background-color: #ABDBCE;
           }
         }
       }
@@ -119,6 +112,7 @@
             margin: 20px 20px;
             height: 400px;
             object-fit:cover 100%;
+            border-radius: 0.4rem;
         }
       }
 }
