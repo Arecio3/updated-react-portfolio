@@ -33,7 +33,7 @@ const Employee = () => {
         </div>
         <div className="buttonContainer">
           <a
-            href="https://github.com/Arecio3/calendar-website"
+            href="https://github.com/Arecio3/employee-directory"
             target="_blank"
             rel="noreferrer noopener"
             className="btn custom-btn"
@@ -41,7 +41,7 @@ const Employee = () => {
             Visit Repo
           </a>
           <a
-            href="https://arecio3.github.io/calendar-website/"
+            href="https://arecio3.github.io/employee-directory/"
             target="_blank"
             rel="noreferrer noopener"
             className="btn custom-btn"

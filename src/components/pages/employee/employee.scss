@@ -69,17 +69,6 @@
           font-size: 13px
         }
 
-        #beige {
-          color: #ebb973;
-        }
-
-        #red{
-          color: #EBA3B6;
-        }
-
-        #blue {
-          color: #528DB3;
-        }
       }
   
       .progress {
@@ -100,13 +89,13 @@
         a {
           color: black;
           background-color: white;
-          border: 1px solid #EDEADA;
+          border: 1px solid #101c3b;
           width: 150px;
           margin-right: 10px;
   
           &:hover {
-            color: black;
-            background-color: #EDEADA;
+            color: white;
+            background-color: #101c3b;
           }
         }
       }
