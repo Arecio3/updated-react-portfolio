@@ -1,23 +1,25 @@
 import React from "react";
-import "./employee.scss";
-import employee1 from "./employee1.png";
-import employee2 from "./employee2.png";
+import "./budget.scss";
 import { Progress } from "reactstrap";
+import budget1 from "./budget1.png";
+import budget2 from "./budget2.png";
 
-const Employee = () => {
+const Budget = () => {
   return (
-    <div className='employee' id="employee">
+    <div className="budget" id="budget">
       <div className="left">
-        <h1>Employee Directory</h1>
+        <h1>Budget Tracker</h1>
         <h5 className="inProgress">In Progress</h5>
         <h3>Description</h3>
         <p>
-          The 19<sup>th</sup> homework assignment also being the first React
-          homework assignment: Using the Random User API we wanted to have 50
-          random employees to render on load in a table showing their image,
-          name, DOB, phone and email. We also wanted to add a function that
-          checks what the user is typing to only show the employees matching the
-          letters being search, which is shown in the second image
+          Budget Tracker was the 18<sup>th</sup> homework assigned: I was to add
+          offline
+           functionality so the user is able to track their withdrawals
+          and deposits
+          with or without a data/internet connection so that their
+          account balance
+           is accurate while traveling. This was able to be achieved with
+          the help of incorporating indexedDB
         </p>
         <h3>Under the Hood</h3>
         <div>
@@ -33,7 +35,7 @@ const Employee = () => {
         </div>
         <div className="buttonContainer">
           <a
-            href="https://github.com/Arecio3/employee-directory"
+            href="https://github.com/Arecio3/budget-tracker"
             target="_blank"
             rel="noreferrer noopener"
             className="btn custom-btn"
@@ -41,7 +43,7 @@ const Employee = () => {
             Visit Repo
           </a>
           <a
-            href="https://arecio3.github.io/employee-directory/"
+            href="https://peaceful-dusk-61305.herokuapp.com/"
             target="_blank"
             rel="noreferrer noopener"
             className="btn custom-btn"
@@ -51,11 +53,11 @@ const Employee = () => {
         </div>
       </div>
       <div className="right">
-        <img src={employee1} alt="" />
-        <img src={employee2} alt="" />
+        <img src={budget1} alt="" />
+        <img src={budget2} alt="" />
       </div>
     </div>
   );
 };
 
-export default Employee;
+export default Budget;

@@ -6,7 +6,7 @@ import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import "./app.scss";
 import { useState } from "react";
-import Budget from "./components/pages/Budget";
+import Budget from "./components/pages/budget/Budget";
 import Quiz from "./components/pages/quiz/Quiz";
 import Scheduler from "./components/pages/scheduler/Scheduler";
 import Astroscope from "./components/pages/astroscope/Astroscope";
