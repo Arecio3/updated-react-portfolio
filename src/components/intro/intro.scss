@@ -9,6 +9,11 @@
         flex-direction: column;
         align-items: center;
     }
+    @include Pro {
+        flex-direction: column;
+        align-items: center;
+    }
+    
 
     .left {
         flex: 0.5;
@@ -31,6 +36,10 @@
                 align-items: flex-start;
                 margin-top: 1px;
             }
+            @include Pro {
+                align-items: flex-start;
+                margin-top: 1px;
+            }
 
             img {
                 height: 97%;
@@ -38,6 +47,10 @@
 
                 @include mobile {
                     height: 50%;
+                    top: 0;
+                }
+                @include iPad {
+                    height: 500px;
                     top: 0;
                 }
             }
@@ -58,6 +71,14 @@
                padding-left: 0;
                align-items: center;
            }
+           @include Pro {
+               padding-left: 0;
+               align-items: center;
+           }
+           @include iPad {
+               padding-left: 0;
+               align-items: center;
+           }
 
            h1 {
                font-size: 200px;
@@ -67,6 +88,12 @@
 
                @include mobile {
                    font-size: 40px;
+                }
+               @include Pro {
+                   font-size: 120px;
+                }
+               @include iPad {
+                   font-size: 90px;
                 }
             }
             
@@ -79,6 +106,14 @@
                     padding-top: 20px;
                     font-size: 20px;
                 }
+                @include Pro {
+                    padding-top: 20px;
+                    font-size: 50px;
+                }
+                @include iPad {
+                    padding-top: 20px;
+                    font-size: 50px;
+                }
            }
 
            h3 {
@@ -87,6 +122,9 @@
 
             @include mobile {
                 font-size: 20px;
+            }
+            @include Pro {
+                font-size: 50px;
             }
 
             span {
@@ -117,6 +155,9 @@
 
             @include mobile {
                 left: 45%;
+            }
+            @include Pro {
+                left: 47%;
             }
 
             img {
