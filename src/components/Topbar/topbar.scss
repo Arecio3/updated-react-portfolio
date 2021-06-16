@@ -1,0 +1,11 @@
+@import '../../global.scss';
+
+.topBar {
+    background-color: $mainColor;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    // sets it bigger then other components
+    z-index: 2;
+}

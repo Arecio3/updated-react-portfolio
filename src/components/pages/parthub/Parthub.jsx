@@ -74,10 +74,10 @@ const PartHub = () => {
         </a>
       </div>
       </div>
-      
       <div className="imgContainer">
         <img className="partImg" src={parthub} alt="" />
       </div>
+      
     </div>
   );
 };

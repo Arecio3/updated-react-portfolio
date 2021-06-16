@@ -23,6 +23,12 @@
       flex-direction: column;
     }
 
+    @include Pro {
+      width: 90%;
+      height: 100%;
+      justify-content: flex-start;
+    }
+
     h1 {
       color: white;
       font-size: 105px;
@@ -30,6 +36,15 @@
 
       @include mobile {
         font-size: 40px;
+      }
+
+      @include iPad {
+        font-size: 55px;
+        text-align: center;
+      }
+
+      @include Pro {
+        font-size: 75px;
       }
 
       span {
@@ -46,6 +61,14 @@
 
       @include mobile {
         font-size: 20px;
+      }
+
+      @include iPad {
+        font-size: 35px;
+      }
+
+      @include Pro {
+        font-size: 45px;
       }
 
     }
@@ -75,6 +98,13 @@
         flex-wrap: wrap;
       }
 
+      @include iPad {
+        font-size: 20px;
+      }
+
+      @include Pro {
+        font-size: 25px;
+      }
     }
 
     h3 {
@@ -82,6 +112,10 @@
 
       @include mobile {
         font-size: 20px;
+      }
+
+      @include iPad {
+        font-size: 35px;
       }
 
     }
@@ -104,6 +138,9 @@
       margin-bottom: 10px;
 
       @include mobile {
+        width: 90%;
+      }
+      @include Pro {
         width: 90%;
       }
     }
@@ -133,13 +170,16 @@
 
   .imgContainer {
     display: flex;
-    position: relative;
     float: right;
     width: 950px;
-    height: 600px;
+    height: 550px;
 
     @include mobile {
       display: none;
+    }
+
+    @include Pro {
+     margin-top: 850px;
     }
 
     .partImg {
@@ -147,6 +187,12 @@
       width: 100%;
       height: 100%;
       object-fit: cover 100%;
+
+      @include Pro {
+        width: 90%;
+        height: 70%;
+        
+      }
     }
   }
 }
