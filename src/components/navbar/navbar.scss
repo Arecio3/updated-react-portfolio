@@ -78,10 +78,14 @@
         &::-webkit-scrollbar{
             display: none;
         }
+        @media (max-width: 1024px) {
+            z-index: 1000;
+        } 
+       
         
         .burger{
             span{
-                //first line
+                //first hamburger line
                 &:first-child{
                     background-color: white;
                     transform: rotate(45deg);

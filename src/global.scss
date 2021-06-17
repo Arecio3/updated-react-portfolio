@@ -1,23 +1,23 @@
 $mainColor: #374785;
 
-$width: 768px;
-$iPadWidth: 1024px;
-$ProWidth: 1366px;
+// $width: 812px;
+// $iPadWidth: 1024px;
+// $ProWidth: 1366px;
 
 @mixin mobile {
-    @media (max-width: #{$width}) {
-        @content
+    @media (max-width: 812px) {
+        @content;
     }
 }
 
-@mixin iPad {
-    @media (max-width: #{$iPadWidth}) {
-        @content
-    }
-}
+// @mixin iPad {
+//     @media (max-width: 1024px) {
+//         @content;
+//     }
+// }
 
-@mixin Pro {
-    @media (max-width: 1366px) {
-        @content
-    }
-}
+// @mixin Pro {
+//     @media (max-width: 1366px) {
+//         @content;
+//     }
+// }

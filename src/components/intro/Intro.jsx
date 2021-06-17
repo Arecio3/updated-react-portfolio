@@ -32,7 +32,7 @@ const Intro = () => {
               <span ref={textRef}></span>
             </h2>
           </div>
-          <h1 className="name">Arecio Canton</h1>
+          <h1>Arecio Canton</h1>
           <h3>
             I'm a Junior Full Stack <br />
             <span>Javascript</span> Developer{" "}
