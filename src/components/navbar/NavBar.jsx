@@ -1,6 +1,8 @@
 import React from "react";
 import "./navbar.scss";
-import { Person, Mail } from "@material-ui/icons";
+import {Mail} from "@material-ui/icons";
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default function TopBar({ menuOpen, setMenuOpen }) {
   return (
@@ -11,12 +13,16 @@ export default function TopBar({ menuOpen, setMenuOpen }) {
             arecio
           </a>
           <div className="itemContainer">
-            <Person className="icon" />
-            <span>+1 813 385 2938</span>
+            <a href='https://www.linkedin.com/in/arecio-canton-95026a208/' target="_blank"
+            rel="noreferrer noopener" className="icon"><LinkedInIcon className="icon"/></a>
           </div>
           <div className="itemContainer">
-            <Mail className="icon" />
-            <span>cuba289@gmail.com</span>
+            <a href='mailto:cuba289@gmail.com' target="_blank"
+            rel="noreferrer noopener" className="icon"><Mail className="icon" /></a>
+          </div>
+          <div className="itemContainer">
+            <a href='https://github.com/Arecio3' target="_blank"
+            rel="noreferrer noopener" className="icon"><GitHubIcon className="icon" /></a>
           </div>
         </div>
         <div className="right">

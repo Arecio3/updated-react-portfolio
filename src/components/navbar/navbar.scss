@@ -40,13 +40,12 @@
                 }
 
                 .icon {
+                    color: inherit;
                     font-size: 25px;
                     margin-right: 5px;
-                }
-
-                span {
-                    font-size: 15px;
-                    font-weight: 500px;
+                    cursor: pointer;
+                    text-decoration: none;
+                    list-style: none;
                 }
             }
         }
