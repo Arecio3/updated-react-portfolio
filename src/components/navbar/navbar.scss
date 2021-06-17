@@ -34,11 +34,10 @@
                 display: flex;
                 align-items: center;
                 margin-left: 30px;
-
                 @include mobile {
-                    display: none;
+                    margin-left: 7px;
                 }
-
+                
                 .icon {
                     color: inherit;
                     font-size: 25px;
@@ -46,6 +45,9 @@
                     cursor: pointer;
                     text-decoration: none;
                     list-style: none;
+                    @include mobile {
+                        font-size: 20px;
+                    }
                 }
             }
         }
