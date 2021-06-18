@@ -7,7 +7,7 @@
     display: flex;
     overflow: hidden;
 
-    @include mobile {
+    @media (max-width:  375px) {
         flex-direction: column;
         align-items: center;
         padding: 10px;
@@ -16,7 +16,7 @@
         flex: 2;
         width: 70%;
         height: 50%;
-        @include mobile {
+        @media (max-width:  375px) {
             display: none;
           }
 
@@ -58,7 +58,7 @@
             justify-content: center;
             align-items: center;
 
-            @include mobile {
+            @media (max-width:  375px) {
                 font-size: 50px
               }
         }
@@ -66,7 +66,7 @@
         h5 {
             text-align: start;
 
-            @include mobile {
+            @media (max-width:  375px) {
                 font-size: 20px
               }
         }
@@ -74,7 +74,7 @@
         p {
             padding: 0 5px;
             font-size: 18px;
-            @include mobile {
+            @media (max-width:  375px) {
                 font-size: 13px;
                 flex-wrap: wrap;
               }
@@ -96,7 +96,7 @@
           .progress {
            margin-bottom: 10px;
            width: 80%;
-           @include mobile {
+           @media (max-width:  375px) {
             width: 90%;
           }
           }

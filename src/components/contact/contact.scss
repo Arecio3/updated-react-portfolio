@@ -4,7 +4,7 @@
     background-color: white;
     display: flex;
 
-    @include mobile {
+    @media screen and (max-width: 375px){
         flex-direction: column;
     }
 
@@ -15,8 +15,8 @@
         height: 100%;
         margin-left: 20px;
 
-        @include mobile {
-          margin-left: 85px;
+        @media screen and (max-width: 375px){
+          width: 93%;
         }
 
         img {
@@ -37,7 +37,7 @@
         h2 {
             font-size: 90px;
 
-            @include mobile {
+            @media screen and (max-width: 375px){
                 font-size: 50px;
             }
         }
@@ -50,7 +50,7 @@
             align-items: center;
             justify-content: space-around;
 
-            @include mobile {
+            @media screen and (max-width: 375px){
                 margin-bottom: 10px;
                 justify-content: space-evenly;
             }
@@ -60,7 +60,7 @@
                 height: 30px;
                 font-size: 14px;
 
-                @include mobile {
+                @media screen and (max-width: 375px){
                     width: 200px;
                     height: 20px;
                     margin-bottom: 10px;
@@ -72,7 +72,7 @@
                 height: 200px;
                 font-size: 14px;
 
-                @include mobile {
+                @media screen and (max-width: 375px){
                     width: 200px;
                     height: 100px;
                     margin-bottom: 10px;

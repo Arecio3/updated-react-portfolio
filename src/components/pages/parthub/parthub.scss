@@ -3,7 +3,7 @@
 .parthub {
   background-color: black;
 
-  @include mobile {
+  @media (max-width:  375px) {
     flex-direction: column;
     align-items: center;
     margin: 0;
@@ -17,7 +17,7 @@
     padding: 15px;
     width: 50%;
 
-    @include mobile {
+    @media (max-width:  375px) {
       width: 90%;
       height: 100%;
       flex-direction: column;
@@ -34,7 +34,7 @@
       font-size: 105px;
       border-radius: 2%;
 
-      @include mobile {
+      @media (max-width:  375px) {
         font-size: 40px;
       }
       // @media (max-width: 1366px) {
@@ -59,7 +59,7 @@
     h2 {
       color: white;
 
-      @include mobile {
+      @media (max-width:  375px) {
         font-size: 20px;
       }
       // @media (max-width: 1366px) {
@@ -77,7 +77,7 @@
       text-align: center;
       padding: 3px;
 
-      @include mobile {
+      @media (max-width:  375px) {
         font-size: 8px;
         width: 55px;
       }
@@ -88,7 +88,7 @@
       font-size: 18px;
       font-weight: 300;
 
-      @include mobile {
+      @media (max-width:  375px) {
         font-size: 11px;
         flex-wrap: wrap;
       }
@@ -101,7 +101,7 @@
     h3 {
       color: white;
 
-      @include mobile {
+      @media (max-width:  375px) {
         font-size: 20px;
       }
 
@@ -124,7 +124,7 @@
       width: 60%;
       margin-bottom: 10px;
 
-      @include mobile {
+      @media (max-width:  375px) {
         width: 90%;
       }
       // @media (max-width: 1366px) {
@@ -162,7 +162,7 @@
     width: 950px;
     height: 550px;
 
-    @include mobile {
+    @media (max-width:  375px) {
       display: none;
     }
     // @media(max-width: 1366px) {

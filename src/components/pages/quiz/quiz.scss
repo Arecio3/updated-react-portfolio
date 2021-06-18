@@ -4,7 +4,7 @@
   display: flex;
   background-color: #d1d7e0;
 
-  @include mobile {
+  @media (max-width:  375px) {
     flex-direction: column;
     align-items: center;
     margin: 0;
@@ -16,7 +16,7 @@
     flex-direction: column;
     margin: 10px;
 
-    @include mobile {
+    @media (max-width:  375px) {
       width: 90%;
       height: 100%;
       flex-direction: column;
@@ -27,7 +27,7 @@
       color: #5680e9;
       font-style: italic;
 
-      @include mobile {
+      @media (max-width:  375px) {
         font-size: 50px
       }
     }
@@ -37,7 +37,7 @@
         font-size: 50px;
         color: #5680e9;
 
-        @include mobile {
+        @media (max-width:  375px) {
           font-size: 20px
         }
     }
@@ -46,7 +46,7 @@
         font-size: 28px;
         flex-wrap: wrap;
 
-        @include mobile {
+        @media (max-width:  375px) {
           font-size: 17px
         }
     }
@@ -55,7 +55,7 @@
       margin-bottom: 10px;
       width: 40%;
 
-      @include mobile {
+      @media (max-width:  375px) {
         width: 100%;
       }
     }
@@ -84,7 +84,7 @@
   .right {
     display: flex;
     flex-direction: column;
-    @include mobile {
+    @media (max-width:  375px) {
       display: none;
     }
 

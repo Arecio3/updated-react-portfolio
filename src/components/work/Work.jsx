@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import rightBg from "../../images/slide1right.png";
+import cuba from "../../images/cuba.jpeg";
+import homework from '../../images/homework.svg';
+import project from '../../images/project.png';
 import arrow from "../intro/down.png";
 import projectIcon from "../../images/projectSlide.png";
 import homeworkIcon from "../../images/homeworkSlide.png";
@@ -12,10 +14,10 @@ export default function Works() {
     {
       id: "1",
       icon: "https://img.icons8.com/carbon-copy/100/000000/developer.png",
-      title: "Why I code",
+      title: "Story of Arecio",
       description:
-        " I love being able to create code that makes life easier and more enjoyable.",
-      image: rightBg,
+        "Here is the crazy story on how me and my family got to America. I came to the America around January 2001 with my Mom through 'The Special Cuban Migration Program' basically we won the lotto.. Pretty insane and clearly completely changed my life one of my dreams after I land a good job developing is to give back to my family for everything they've done for me.",
+      image: cuba,
     },
     {
       id: "2",
@@ -23,6 +25,7 @@ export default function Works() {
       title: "Homeworks",
       description:
         "Through out my three month Bootcamp experience there were numerous homework assignments.",
+      image: homework,
     },
     {
       id: "3",
@@ -30,6 +33,7 @@ export default function Works() {
       title: "Projects",
       description:
         "Through out my three month Bootcamp there were 3 Projects that we needed to work on with other classmates.",
+      image: project,
     },
   ];
 
@@ -43,11 +47,11 @@ export default function Works() {
     <div className="work" id="work">
       <header>
         {" "}
-        <h1 className="workHeader">Work Info</h1>
+        <h1 className="workHeader">About Me</h1>
       </header>
       <div
         className="slider"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
+        style={{ transform: `translateX(-${currentSlide * 100}vw)`}}
       >
         {data.map((d, i) => (
           <div className="workContainer" key={i}>
@@ -62,7 +66,7 @@ export default function Works() {
                 </div>
               </div>
               <div className="right">
-                <img src={rightBg} alt="" />
+                <img src={d.image} alt=""/>
               </div>
             </div>
           </div>

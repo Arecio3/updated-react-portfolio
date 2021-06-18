@@ -5,10 +5,9 @@
   padding: 15px;
   margin: 10px;
 
-  @include mobile {
+  @media (max-width:  375px) {
     flex-direction: column;
     align-items: center;
- 
   }
 
   .left {
@@ -19,7 +18,11 @@
     flex-direction: column;
     width: 50%;
 
-    @include mobile {
+    @media (max-width: 1024px) {
+      justify-content: flex-start;
+      width: 95%;
+    }
+    @media (max-width:  375px) {
       width: 90%;
       height: 100%;
       flex-direction: column;
@@ -30,7 +33,13 @@
       color: #7096c5;
       font-style: italic;
 
-      @include mobile {
+      @media (max-width: 1024px) {
+        font-size: 80px;
+        text-align: center;
+        justify-content: center;
+      }
+
+      @media (max-width:  375px) {
         font-size: 40px;
         text-align: center;
       }
@@ -45,7 +54,7 @@
       text-align: center;
       padding: 3px;
 
-      @include mobile {
+      @media (max-width:  375px) {
         font-size: 8px;
         width: 55px;
       }
@@ -53,8 +62,10 @@
 
     h3 {
       color: #222;
-
-      @include mobile {
+      @media (max-width: 1024px) {
+        font-size: 35px;
+      }
+      @media (max-width:  375px) {
         font-size: 16px;
       }
     }
@@ -63,9 +74,13 @@
       font-size: 16px;
       color: #222;
 
-      @include mobile {
+      @media (max-width: 1024px) {
+        font-size: 20px;
+      }
+
+      @media (max-width:  375px) {
         font-size: 12px;
-       
+        
       }
     }
 
@@ -79,7 +94,7 @@
         cursor: pointer;
         text-decoration: none;
         list-style: none;
-        @include mobile {
+        @media (max-width:  375px) {
           font-size: 16px;
         }
       }
@@ -89,7 +104,7 @@
       margin-bottom: 10px;
       width: 80%;
 
-      @include mobile {
+      @media (max-width:  375px) {
         width: 100%;
       }
     }
@@ -106,7 +121,7 @@
         width: 150px;
         margin-right: 10px;
 
-        @include mobile {
+        @media (max-width:  375px) {
           width: 150px;
         }
 
@@ -126,7 +141,11 @@
     width: 876px;
     height: 498px;
 
-    @include mobile {
+    @media (max-width: 1024px) {
+      margin-top: 70%;
+      margin-right: 5%;
+    }
+    @media (max-width:  375px) {
       display: none;
     }
 

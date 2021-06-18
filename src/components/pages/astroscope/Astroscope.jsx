@@ -4,7 +4,7 @@ import { Progress } from "reactstrap";
 import "./astroscope.scss";
 const Astroscope = () => {
   return (
-    <div className="astroscope" id="astroscope">
+    <div className="astroscope"id="astroscope">
       <div className="left">
         <h2>gif</h2>
         <img src={astroscopeGif} alt="" />

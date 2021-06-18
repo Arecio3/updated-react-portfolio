@@ -10,10 +10,9 @@
         list-style: none;
         color: black;
 
-        @include mobile {
+        @media screen and (max-width:  375px) {
           overflow: hidden;
         }
-  
         &.active {
           background-color: $mainColor;
           color: white;
