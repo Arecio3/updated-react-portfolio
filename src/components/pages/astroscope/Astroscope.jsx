@@ -4,12 +4,8 @@ import { Progress } from "reactstrap";
 import "./astroscope.scss";
 const Astroscope = () => {
   return (
-    <div className="astroscope"id="astroscope">
+    <div className="astroscope" id="astroscope">
       <div className="left">
-        <h2>gif</h2>
-        <img src={astroscopeGif} alt="" />
-      </div>
-      <div className="right">
         <h1>astroscope</h1>
         <h3>Description</h3>
         <p>
@@ -47,28 +43,37 @@ const Astroscope = () => {
         </ul>
         <h3>Under the Hood</h3>
         <div>
-          <Progress className='progress' color="warning" value={75} >JavaScript</Progress>
-          <Progress color="" value={15} >CSS</Progress>
-          <Progress color="danger" value={10} >HTML</Progress>
+          <Progress className="progress" color="warning" value={75}>
+            JavaScript
+          </Progress>
+          <Progress color="" value={15}>
+            CSS
+          </Progress>
+          <Progress color="danger" value={10}>
+            HTML
+          </Progress>
         </div>
         <div className="buttonContainer">
-        <a
-          href="https://github.com/mascarelloa/astroscope"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="btn custom-btn"
-        >
-          Project Repo
-        </a>
-        <a
-          href="https://mascarelloa.github.io/astroscope/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="btn custom-btn"
-        >
-          Visit Site!
-        </a>
+          <a
+            href="https://github.com/mascarelloa/astroscope"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="btn custom-btn"
+          >
+            Project Repo
+          </a>
+          <a
+            href="https://mascarelloa.github.io/astroscope/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="btn custom-btn"
+          >
+            Visit Site!
+          </a>
+        </div>
       </div>
+      <div className="right"> 
+          <img src={astroscopeGif} alt="" />
       </div>
     </div>
   );
