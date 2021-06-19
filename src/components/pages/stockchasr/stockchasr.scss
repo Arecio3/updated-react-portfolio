@@ -22,6 +22,7 @@
       justify-content: flex-start;
       width: 95%;
     }
+    
     @media (max-width:  375px) {
       width: 90%;
       height: 100%;
@@ -123,6 +124,10 @@
       flex-direction: row;
       justify-content: flex-start;
       margin: 10px;
+
+      @media (max-width: 768px) {
+        margin-top: 0px;
+      }
     
       a {
         border-color: #7096c5;
@@ -153,6 +158,12 @@
     @media (max-width: 1024px) {
       margin-top: 70%;
       margin-right: 5%;
+    }
+    @media (max-width: 768px) {
+      margin-right: 10%;
+      margin-top: 97%;
+      width: 600px;
+      height: 200px;
     }
     @media (max-width:  428px) {
       display: none;

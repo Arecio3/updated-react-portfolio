@@ -127,6 +127,10 @@
         margin-right: 5%;
         margin-left: 70px;
       }
+      @media (max-width: 768px) {
+        margin-top: 75%;
+        margin-right: 10%;
+      }
         @media (max-width:  428px) {
           display: none;
         }

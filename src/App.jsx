@@ -38,9 +38,9 @@ function App() {
           <Stonk />
           <Notes />
           <Team />
+          <Weather />
           <Work />
           <Contact />
-          <Weather />
         </div>
     </div>
   );
