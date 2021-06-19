@@ -9,6 +9,10 @@
     flex-direction: column;
     align-items: center;
   }
+  @media screen and (max-width: 428px) {
+    flex-direction: column;
+    align-items: center;
+  }
   @media screen and (max-width: 375px) {
     flex-direction: column;
     align-items: center;
@@ -44,9 +48,13 @@
         width: 500px;
         
       }
+      @media screen and (max-width: 428px) {
+        margin-top: 15px;
+        height: 290px;
+        width: 300px;
+      }
       // iPhoneX
       @media screen and (max-width: 375px) {
-        justify-content: center;
         margin-top: 15px;
         height: 290px;
         width: 300px;
@@ -61,6 +69,9 @@
         height: 97%;
         bottom: 0;
      
+        @media screen and (max-width: 428px) {
+            height: 100%;
+        }
         @media screen and (max-width: 375px) {
             height: 100%;
         }
@@ -90,6 +101,10 @@
         padding-left: 0;
         align-items: center;
       }
+      @media screen and (max-width: 428px) {
+        padding-left: 0;
+        align-items: center;
+      }
       @media screen and (max-width: 375px) {
         padding-left: 0;
         align-items: center;
@@ -106,6 +121,9 @@
         }
         @media (max-width: 768px) {
             font-size: 90px;
+        }
+        @media screen and (max-width: 428px) {
+          font-size: 50px;
         }
         @media screen and (max-width: 375px) {
           font-size: 50px;
@@ -125,6 +143,10 @@
             padding-top: 20px;
             font-size: 50px;
         }
+        @media screen and (max-width: 428px) {
+          padding-top: 20px;
+          font-size: 30px;
+        }
         @media screen and (max-width: 375px) {
           padding-top: 20px;
           font-size: 30px;
@@ -138,6 +160,9 @@
 
         @media screen and (max-width: 1024px) {
             font-size: 50px;
+        }
+        @media screen and (max-width: 428px) {
+          font-size: 30px;
         }
         @media screen and (max-width: 375px) {
           font-size: 30px;
