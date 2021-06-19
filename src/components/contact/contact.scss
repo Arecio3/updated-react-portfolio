@@ -4,6 +4,9 @@
     background-color: white;
     display: flex;
 
+    @media screen and (max-width: 1024px){
+        flex-direction: column;
+    }
     @media screen and (max-width: 375px){
         flex-direction: column;
     }
@@ -15,6 +18,9 @@
         height: 100%;
         margin-left: 20px;
 
+        @media screen and (max-width: 1024px){
+          width: 93%;
+        }
         @media screen and (max-width: 375px){
           width: 93%;
         }
@@ -60,6 +66,11 @@
                 height: 30px;
                 font-size: 14px;
 
+                @media screen and (max-width: 1024px){
+                    width: 600px;
+                    height: 25px;
+                    margin-bottom: 10px;
+                }
                 @media screen and (max-width: 375px){
                     width: 200px;
                     height: 20px;
@@ -72,6 +83,10 @@
                 height: 200px;
                 font-size: 14px;
 
+                @media screen and (max-width: 1024px){
+                    width: 600px;
+
+                }
                 @media screen and (max-width: 375px){
                     width: 200px;
                     height: 100px;
