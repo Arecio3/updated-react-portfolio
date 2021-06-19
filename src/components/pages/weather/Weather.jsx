@@ -13,14 +13,14 @@ const Weather = () => {
         <h3>Description</h3>
         <p>
           This is the 4<sup>th</sup> homework where I had to build an
-          application where we pull data from a <br />
+          application where we pull data from a 
           weather API based on the city that the user searched we get back a 5
           day forecast with
-          <br /> a current weather, temp, windspeed, humidity and a UV Index
+           a current weather, temp, windspeed, humidity and a UV Index
           with a dynamic background
-          <br /> color to represent the condition, also each city that is
+           color to represent the condition, also each city that is
           searched is appended to the page
-          <br /> so the user can alternate between past searched cities.
+           so the user can alternate between past searched cities.
         </p>
         <h3>Under the Hood</h3>
         <div>

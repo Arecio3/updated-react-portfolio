@@ -4,6 +4,10 @@
     display: flex;
     background-color: #EDEADA;
   
+    @media (max-width:  1024px) {
+      flex-direction: column;
+      align-items: center;
+    }
     @media (max-width:  375px) {
       flex-direction: column;
       align-items: center;
@@ -15,6 +19,12 @@
       display: flex;
       flex-direction: column;
       margin: 10px;
+
+      @media (max-width: 1024px) {
+        margin: 25px 25px;
+        width: 90%;
+        justify-content: flex-start;
+      }
   
       @media (max-width:  375px) {
         width: 90%;
@@ -27,6 +37,13 @@
         font-size: 100px;
         color: #222;
         font-style: italic;
+
+        @media (max-width: 1024px) {
+          font-size: 100px;
+          text-align: center;
+          justify-content: center;
+        }
+
         @media (max-width:  375px) {
           font-size: 50px
         }
@@ -41,6 +58,10 @@
         text-align: center;
         padding: 3px;
   
+        @media (max-width:  1024px) {
+          font-size: 12px;
+          width: 70px;
+        }
         @media (max-width:  375px) {
           font-size: 8px;
           width: 55px;
@@ -49,6 +70,10 @@
   
       h3 {
         font-size: 45px;
+
+        @media (max-width: 1024px) {
+          font-size: 45px;
+        }
   
         @media (max-width:  375px) {
           font-size: 20px
@@ -57,6 +82,10 @@
   
       p {
         font-size: 18px;
+
+        @media (max-width: 1024px) {
+          font-size: 25px;
+        }
   
         @media (max-width:  375px) {
           font-size: 13px
@@ -78,6 +107,10 @@
       .progress {
         margin: 10px;
         width: 40%;
+
+        @media (max-width:  1024px) {
+          width: 100%;
+        }
   
         @media (max-width:  375px) {
           width: 100%;
@@ -108,6 +141,11 @@
     .right {
         display: flex;
         flex-direction: column;
+
+        @media (max-width: 1024px) {
+          margin-bottom: 30%;
+          flex-direction: row;
+        }
     
         @media (max-width:  375px) {
           display: none;
@@ -119,6 +157,12 @@
             margin: 20px 20px;
             height: 400px;
             object-fit:cover 100%;
+
+            @media (max-width: 1024px) {
+              width: 430px;
+              height: 300px;
+              margin: 25px;
+            }
         }
       }
 }
