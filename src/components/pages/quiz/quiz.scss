@@ -26,6 +26,12 @@
       justify-content: flex-start;
     }
 
+    @media (max-width:  428px) {
+      margin-top: 70px;
+      width: 90%;
+      height: 100%;
+      flex-direction: column;
+    }
     @media (max-width:  375px) {
       width: 90%;
       height: 100%;

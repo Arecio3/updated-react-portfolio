@@ -10,6 +10,10 @@
         list-style: none;
         color: black;
 
+        @media screen and (max-width:  428px) {
+          margin-top: 10px;
+        }
+
         @media screen and (max-width:  375px) {
           overflow: hidden;
         }

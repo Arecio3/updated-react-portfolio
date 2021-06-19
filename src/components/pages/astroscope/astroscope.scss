@@ -27,6 +27,12 @@
         width: 95%;
       }
       
+      @media (max-width:  428px) {
+        margin-top: 60px;
+        width: 90%;
+        height: 100%;
+        flex-direction: column;
+      }
       @media (max-width:  375px) {
         margin: 15px 15px;
         width: 90%;

@@ -27,6 +27,10 @@
                 text-decoration: none;
                 color: inherit;
                 margin-right: 40px;
+
+                @media (max-width: 428px) {
+                    font-size: 25px;
+                }
                 
             }
 
