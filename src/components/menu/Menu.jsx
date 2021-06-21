@@ -19,7 +19,7 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
         </li>
         <li onClick={() => setMenuOpen(false)}>
           <a
-            href="https://docdro.id/MdYG9oY"
+            href="https://docdro.id/bTVBZ25"
             target="_blank"
             rel="noreferrer noopener"
           >
