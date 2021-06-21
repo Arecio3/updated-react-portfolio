@@ -206,6 +206,10 @@
         left: 45%;
         bottom: 9%;
       }
+      @media screen and (max-height: 667px) {
+        left: 45%;
+        bottom: 1%;
+      }
     
 
       img {

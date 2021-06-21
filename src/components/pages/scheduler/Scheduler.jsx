@@ -13,13 +13,13 @@ const Scheduler = () => {
         <h3>Description</h3>
         <p>
           This is the 3<sup>rd</sup> homework assigned to me, the criteria was
-          to create a front-end application that could be <br />
+          to create a front-end application that could be
           used as a scheduler for someone who's work schedule would be 9-5 each
-          hour that has passed is represented <br />
+          hour that has passed is represented 
           in <span id="beige">beige</span> current hour is in
           <span id="red"> red </span>and future hours is in
           <span id="blue"> blue </span> I used Moment.js to keep track of the
-          time and with the <br />
+          time and with the 
           help of local storage the user is able to type into each slot and save
           it.
         </p>
