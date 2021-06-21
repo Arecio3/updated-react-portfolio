@@ -46,13 +46,13 @@ const PartHub = () => {
         <h3>Under The Hood</h3>
         <div>
           <Progress className="progress" color="warning" value={75}>
-            React
+            JavaScript
           </Progress>
-          <Progress color="" value={15}>
+          <Progress color="" value={10}>
             CSS
           </Progress>
-          <Progress color="danger" value={10}>
-            HTML
+          <Progress color="danger" value={11}>
+            Handlebars
           </Progress>
         </div>
         <div className="buttonContainer">

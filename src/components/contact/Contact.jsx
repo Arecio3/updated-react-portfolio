@@ -41,13 +41,4 @@ const Contact = () => {
   );
 };
 
-{
-  /* <h2>Contact.</h2>
-        <form onSubmit={handleSubmit}>
-        <input type="text" placeholder='Email' />
-        <textarea placeholder='Message'></textarea>
-        <button href='mailto:cuba289@gmail.com' type='submit'>Send</button>
-    {message && <span id='message'>Thank you for leaving a message, I'll get back to you ASAP :)</span>} 
-     </form> */
-}
 export default Contact;

@@ -43,6 +43,9 @@
       height: 100%;
       flex-direction: column;
     }
+    @media (max-height: 667px) {
+      margin-top: 2%;
+     }
     @media (max-width:  375px) {
       width: 90%;
       height: 100%;
