@@ -21,13 +21,13 @@ const Password = () => {
         </p>
         <h3>Under the Hood</h3>
         <div>
-          <Progress className="progress" color="warning" value={75}>
+          <Progress className="progress" color="warning" value={50}>
             JavaScript
           </Progress>
-          <Progress color="" value={15}>
+          <Progress color="" value={30}>
             CSS
           </Progress>
-          <Progress color="danger" value={10}>
+          <Progress color="danger" value={15}>
             HTML
           </Progress>
         </div>

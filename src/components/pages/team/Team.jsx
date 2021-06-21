@@ -16,10 +16,10 @@ const Team = () => {
           <Progress className="progress" color="warning" value={75}>
             JavaScript
           </Progress>
-          <Progress color="" value={15}>
+          <Progress color="" value={5}>
             CSS
           </Progress>
-          <Progress color="danger" value={10}>
+          <Progress color="danger" value={24}>
             HTML
           </Progress>
         </div>

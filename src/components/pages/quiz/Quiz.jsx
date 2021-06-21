@@ -22,13 +22,13 @@ const Quiz = () => {
         </p>
         <h3>Under the Hood</h3>
         <div>
-          <Progress className="progress" color="warning" value={75}>
+          <Progress className="progress" color="warning" value={62}>
             JavaScript
           </Progress>
           <Progress color="" value={15}>
             CSS
           </Progress>
-          <Progress color="danger" value={10}>
+          <Progress color="danger" value={20}>
             HTML
           </Progress>
         </div>

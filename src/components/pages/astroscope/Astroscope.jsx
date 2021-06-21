@@ -43,14 +43,14 @@ const Astroscope = () => {
         </ul>
         <h3>Under the Hood</h3>
         <div>
-          <Progress className="progress" color="warning" value={75}>
-            JavaScript
+          <Progress className="progress" color="danger" value={60}>
+          HTML
           </Progress>
-          <Progress color="" value={15}>
-            CSS
+          <Progress color="" value={20}>
+          CSS
           </Progress>
-          <Progress color="danger" value={10}>
-            HTML
+          <Progress color="warning" value={10}>
+          JS
           </Progress>
         </div>
         <div className="buttonContainer">

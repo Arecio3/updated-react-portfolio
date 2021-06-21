@@ -21,13 +21,13 @@ const Employee = () => {
         </p>
         <h3>Under the Hood</h3>
         <div>
-          <Progress className="progress" color="warning" value={75}>
+          <Progress className="progress" color="warning" value={47}>
             JavaScript
           </Progress>
-          <Progress color="" value={15}>
+          <Progress color="" value={10}>
             CSS
           </Progress>
-          <Progress color="danger" value={10}>
+          <Progress color="danger" value={43}>
             HTML
           </Progress>
         </div>

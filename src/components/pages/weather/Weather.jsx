@@ -24,13 +24,13 @@ const Weather = () => {
         </p>
         <h3>Under the Hood</h3>
         <div>
-          <Progress className="progress" color="warning" value={75}>
+          <Progress className="progress" color="warning" value={77}>
             JavaScript
           </Progress>
-          <Progress color="" value={15}>
+          <Progress color="" value={5}>
             CSS
           </Progress>
-          <Progress color="danger" value={10}>
+          <Progress color="danger" value={18}>
             HTML
           </Progress>
         </div>

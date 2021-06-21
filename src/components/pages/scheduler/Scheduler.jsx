@@ -25,13 +25,13 @@ const Scheduler = () => {
         </p>
         <h3>Under the Hood</h3>
         <div>
-          <Progress className="progress" color="warning" value={75}>
+          <Progress className="progress" color="warning" value={28}>
             JavaScript
           </Progress>
-          <Progress color="" value={15}>
+          <Progress color="" value={25}>
             CSS
           </Progress>
-          <Progress color="danger" value={10}>
+          <Progress color="danger" value={46}>
             HTML
           </Progress>
         </div>

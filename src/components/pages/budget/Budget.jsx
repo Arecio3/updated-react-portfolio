@@ -26,10 +26,10 @@ const Budget = () => {
           <Progress className="progress" color="warning" value={75}>
             JavaScript
           </Progress>
-          <Progress color="" value={15}>
+          <Progress color="" value={8}>
             CSS
           </Progress>
-          <Progress color="danger" value={10}>
+          <Progress color="danger" value={14}>
             HTML
           </Progress>
         </div>

@@ -15,13 +15,13 @@ const Notes = () => {
         <p>Note Taker was the 11<sup>th</sup> homework assignment: The application already came with a front-end and my job was to build the backend connect it to the front end and use Express.js to save and retrieve notes from a JSON file. I do plan on change the UI and add functionality to edit notes.</p>
         <h3>Under the Hood</h3>
         <div>
-          <Progress className="progress" color="warning" value={75}>
+          <Progress className="progress" color="warning" value={66}>
             JavaScript
           </Progress>
-          <Progress color="" value={15}>
+          <Progress color="" value={10}>
             CSS
           </Progress>
-          <Progress color="danger" value={10}>
+          <Progress color="danger" value={20}>
             HTML
           </Progress>
         </div>

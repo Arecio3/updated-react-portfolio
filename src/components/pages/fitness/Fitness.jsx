@@ -16,13 +16,13 @@ const Fitness = () => {
         <p>Fitness Tracker is the 17<sup>th</sup>homework: I was given the front end to this application and needed to create a Mongo database with a Mongoose schema and use Express.js to handle routes so when workouts are made and saved they are added to the database and you could keep track of how much total minutes, total sets, reps, and how many exercises performed in total.</p>
         <h3>Under the Hood</h3>
         <div>
-          <Progress className="progress" color="warning" value={75}>
+          <Progress className="progress" color="warning" value={55}>
             JavaScript
           </Progress>
-          <Progress color="" value={15}>
+          <Progress color="" value={24}>
             CSS
           </Progress>
-          <Progress color="danger" value={10}>
+          <Progress color="danger" value={19}>
             HTML
           </Progress>
         </div>
