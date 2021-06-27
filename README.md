@@ -1,6 +1,16 @@
 # Arecios React Portfolio
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
+
+  # Live Site
+  [Link](https://arecio3.github.io/updated-react-portfolio/)
+  # Pictures
+  <img src='src/images/intro.png'></img>
+  <img src='src/images/intro2.png'></img>
+  <img src='src/images/ProjectPic.png'></img>
+  <img src='src/images/homeworkSection.png'></img>
+  <img src='src/images/stockChasrPic.png'></img>
+  <img src='src/images/ContactPic.png'></img>
+
   # Table of Contents 
   * [Installation](#Installation) 
   * [Usage](#Usage) 
