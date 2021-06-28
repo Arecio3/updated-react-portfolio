@@ -1,0 +1,137 @@
+.navBar {
+  background-color: #FEFFFF;
+  color: #374785;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  overflow: hidden;
+}
+
+.navBar .wrapper {
+  padding: 10px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navBar .wrapper .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBar .wrapper .left .logo {
+  font-size: 40px;
+  font-weight: 300;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 40px;
+}
+
+@media (max-width: 428px) {
+  .navBar .wrapper .left .logo {
+    font-size: 25px;
+  }
+}
+
+.navBar .wrapper .left .itemContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 812px) {
+  .navBar .wrapper .left .itemContainer {
+    margin-left: 7px;
+  }
+}
+
+.navBar .wrapper .left .itemContainer .icon {
+  color: inherit;
+  font-size: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
+
+@media screen and (max-width: 812px) {
+  .navBar .wrapper .left .itemContainer .icon {
+    font-size: 20px;
+  }
+}
+
+.navBar .wrapper .right .burger {
+  width: 32px;
+  height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+.navBar .wrapper .right .burger span {
+  width: 100%;
+  height: 3px;
+  background-color: #374785;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.navBar.active {
+  background-color: #374785;
+  color: #FEFFFF;
+}
+
+.navBar.active::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .navBar.active {
+    z-index: 1000;
+  }
+}
+
+.navBar.active .burger span:first-child {
+  background-color: white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.navBar.active .burger span:nth-child(2) {
+  opacity: 0;
+}
+
+.navBar.active .burger span:last-child {
+  background-color: white;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+/*# sourceMappingURL=navbar.css.map */

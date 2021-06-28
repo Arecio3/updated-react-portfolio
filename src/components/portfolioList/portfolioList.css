@@ -1,0 +1,28 @@
+.portfolioList {
+  font-size: 14px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+@media screen and (max-width: 428px) {
+  .portfolioList {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .portfolioList {
+    overflow: hidden;
+  }
+}
+
+.portfolioList.active {
+  background-color: #374785;
+  color: white;
+}
+/*# sourceMappingURL=portfolioList.css.map */
